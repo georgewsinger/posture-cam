@@ -24,8 +24,9 @@ Use a webcam to randomly record your posture throughout the day.
 
 ## Dependencies
 
-This is confirmed to work on a linux installation, with a webcam mounted on `/dev/video0` (your webcam should be here by default; if not, try `/dev/video` or `/dev/video1`).  
-You also need the following two programs:
+This is confirmed to work on a linux installation, with a webcam mounted on `/dev/video0` (your webcam should be here by default; if not, try `/dev/video` or `/dev/video1`). 
+
+You will also need the following two programs (both of which should be easily available in your distro's package manager):
 
 - [mplayer](https://wiki.archlinux.org/index.php/MPlayer)
 - [streamer](http://linux.die.net/man/1/streamer)
