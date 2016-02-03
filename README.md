@@ -20,4 +20,12 @@ Use a webcam to randomly record your posture throughout the day.
 
  This will launch a script which will randomly record (within a 60 minute interval) a **15 second video of yourself** at at 20 fps (the file will end up being around 50mb). You can then review this video later to see how you "performed". At the very least, you will be able to see what your posture actually looks like once you forget about consciously manipulating it.
 
- 4. Optional: Set up a [cron job](https://en.wikipedia.org/wiki/Cron) to have this script run all day.
+4. **Optional:** Set up a [cron job](https://en.wikipedia.org/wiki/Cron) to have this script run all day.
+
+## Dependencies
+
+This is confirmed to work on a linux installation, with a webcam mounted on `/dev/video0` (your webcam should be here by default; if not, try `/dev/video` or `/dev/video1`).  
+You also need the following two programs:
+
+- [mplayer](https://wiki.archlinux.org/index.php/MPlayer)
+- [streamer](http://linux.die.net/man/1/streamer)
